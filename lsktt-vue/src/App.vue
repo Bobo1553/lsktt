@@ -1,16 +1,6 @@
 <template>
   <div id="app" style="height: 100%">
-    <el-container style="height: 100%;">
-      <el-header>Header</el-header>
-      <el-container>
-        <el-aside width="210px">
-          left
-        </el-aside>
-        <el-main>
-          <router-view/>
-        </el-main>
-      </el-container>
-    </el-container>
+    <router-view/>
   </div>
 </template>
 
