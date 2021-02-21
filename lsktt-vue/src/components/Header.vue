@@ -19,7 +19,8 @@
                     小记录
                 </el-link>
                 <el-divider direction="vertical"/>
-                <el-link type="primary" style="color: white" @click="waitForDevelopment">敬请期待</el-link>
+                <el-link type="primary" style="color: white" href="/test">敬请期待</el-link>
+<!--                <el-link type="primary" style="color: white" @click="waitForDevelopment">敬请期待</el-link>-->
             </el-col>
             <el-col :span="4"/>
             <el-col :span="1" justify="center">
@@ -58,7 +59,7 @@
                 this.$router.push(routerLink);
             },
             waitForDevelopment() {
-                this.$alert('我还很努力地开发啦！【委屈屈】', '敬请期待啦~', {
+                this.$alert('我在很努力地开发啦！【委屈屈】', '敬请期待！', {
                     confirmButtonText: '确定',
                 });
             }

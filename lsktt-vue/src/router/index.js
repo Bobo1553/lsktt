@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Love from "../views/Home";
 import Test from "../views/Test";
 import Word from "../views/Word";
+import Record from "../views/Record";
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/word',
     name: 'Word',
     component: Word
+  },
+  {
+    path: '/record',
+    name: 'Record',
+    component: Record
   },
 ];
 
