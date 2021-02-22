@@ -19,8 +19,8 @@
                     小记录
                 </el-link>
                 <el-divider direction="vertical"/>
-                <el-link type="primary" style="color: white" href="/test">敬请期待</el-link>
-<!--                <el-link type="primary" style="color: white" @click="waitForDevelopment">敬请期待</el-link>-->
+<!--                <el-link type="primary" style="color: white" href="/test">敬请期待</el-link>-->
+                <el-link type="primary" style="color: white" @click="waitForDevelopment">敬请期待</el-link>
             </el-col>
             <el-col :span="4"/>
             <el-col :span="1" justify="center">
